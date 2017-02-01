@@ -1,0 +1,17 @@
+{
+  "name": "cwsassnpm",
+  "version": "1.0.3",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^3.8.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-lint": "^1.2.0",
+    "sassdoc": "^2.1.20",
+    "gulp-sourcemaps": "^1.6.0",
+    "browser-sync": "^2.14.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "breakpoint-sass": "^2.7.0",
+    "susy": "^2.2.12"
+  }
+}

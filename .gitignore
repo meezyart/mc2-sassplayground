@@ -1,3 +1,4 @@
+<<<<<<< 813fc4f269490e6a301570550b65b6289822439b
 # Logs
 logs
 *.log
@@ -35,3 +36,25 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+=======
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components
+test/bower_components
+browserSyncConfig.js
+backstop_data
+backstop.json
+>>>>>>> Init Project
+/.idea/watcherTasks.xml
+/.idea/.name
+/.idea/atlassian-ide-plugin.xml
+/.idea/encodings.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/mcsass.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
