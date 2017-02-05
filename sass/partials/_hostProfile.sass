@@ -59,6 +59,7 @@ $color-gray-medium: #e3e3e3
       border: none
       background: $color-blue-lighter
       padding: 0.6em .9em .6em 2em
+
     &__title
       text-align: center
       display: block
@@ -94,17 +95,67 @@ $color-gray-medium: #e3e3e3
     z-index: 0
 
     .hp-list
-      &__main-title
-        width: 80%
-        margin: 0px auto
+      &.btn
+        display: block
+        background: $color-red
+        padding: .2em .86em
+        position: absolute
+        outline: 0
+        cursor: pointer
+        height: 40px
+        //width: 100px
+        border: 0
+        color: $color-white
         font-size: 1em
-        padding: 1.5em 1em .4em
-        border-bottom: 1px solid #555
+        //font-weight:
+
+
+      &__main-title
+        width: 86%
+        margin: 0 auto
+        font-size: 1em
+        padding: 1.5em 1em .4em 0
+        border-bottom: 1px solid #d0d0d0
+        margin-bottom: 1em
 
       &__item
-
-        &--is.red
-          color: red
+        width: 88%
+        margin: 0 auto
+        display: table
+        background: $color-white
+        padding: .3em
+        border-top: 3px solid $color-red
+        overflow: hidden
+      &__description
+        padding: .5em
+        display: table-cell
+        width: 69%
+        vertical-align: top
+      &__available
+        display: table-cell
+      &__avalible-slots
+        list-style: none
+        @include justify-content(center)
+        align-items: center
+        &__item
+          width: 5px
+          height: 7px
+          background: red
+          display: flex
+      &__date
+        font-size: 1em
+        font-weight: 900
+      &__title
+        font-size: 1.4em
+        font-weight: 900
+        color: $color-red
+      &__subtitle
+        font-size: .86em
+        color: #afacac
+      &__blurb
+        font-size: .76em
+        margin: 8px 0 0
+        color: #686666
 
 
 

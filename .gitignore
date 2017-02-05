@@ -6,7 +6,7 @@ dist
 .sass-cache
 bower_components
 test/bower_components
-browserSyncConfig.js
+
 backstop_data
 backstop.json
 /.idea/workspace.xml

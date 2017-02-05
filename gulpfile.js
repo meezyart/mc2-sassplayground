@@ -76,16 +76,17 @@ gulp.task('sassdoc', function () {
  * Gulp task: [default]
  * Watches our files for changes.
  */
-gulp.task('default', null, function() {
+gulp.task('default', ['sass'], function() {
     // Create the BrowserSync proxy
     browserSync({
         notify: true,
         open: true,
         proxy: browserSyncConfig.browsersync.proxy,
         // Uncomment the following and specify your port in browserSyncConfig.js if a custom port is needed:
-        // port: browserSyncConfig.browsersync.port
+         port: browserSyncConfig.browsersync.port
     });
 
     // Watch our files, run tasks on changes.
     gulp.watch(globs.sass, ['sass', browserSync.reload]);
+    gulp.watch("*.html").on('change', browserSync.reload);
 });
